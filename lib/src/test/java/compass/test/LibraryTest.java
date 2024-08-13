@@ -40,6 +40,22 @@ class LibraryTest {
                                 new ContactComparisonResult(1001L, 1002L, "High"),
                                 new ContactComparisonResult(1001L, 1003L, "Low")
                         )
+                ),
+                Arguments.of(
+                        1001L,
+                        Arrays.stream(MAPPER.readValue(new File("src/test/resources/same_contacts.json"), Contact[].class)).toList(),
+                        List.of(
+                                new ContactComparisonResult(1001L, 1002L, "High"),
+                                new ContactComparisonResult(1001L, 1003L, "High")
+                        )
+                ),
+                Arguments.of(
+                        1001L,
+                        Arrays.stream(MAPPER.readValue(new File("src/test/resources/different_contacts.json"), Contact[].class)).toList(),
+                        List.of(
+                                new ContactComparisonResult(1001L, 1002L, "Low"),
+                                new ContactComparisonResult(1001L, 1003L, "Low")
+                        )
                 )
         );
     }

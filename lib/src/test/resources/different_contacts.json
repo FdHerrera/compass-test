@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1001,
+    "firstName": "A",
+    "lastName": "B",
+    "email": "mollis.lectus.pede@outlook.net",
+    "zipCode": "1001",
+    "address": "449-6990 Tellus. Rd"
+  },
+  {
+    "id": 1002,
+    "firstName": "C",
+    "lastName": "D",
+    "email": "different@contact.com",
+    "zipCode": "1002",
+    "address": "P. Sherman, Wallaby Way 42. SYD"
+  },
+  {
+    "id": 1003,
+    "firstName": "F",
+    "lastName": "G",
+    "email": "another@contact.com",
+    "zipCode": "1003",
+    "address": "742 Evergreen Terrace"
+  }
+]

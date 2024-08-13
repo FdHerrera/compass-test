@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1001,
+    "firstName": "C",
+    "lastName": "F",
+    "email": "mollis.lectus.pede@outlook.net",
+    "zipCode": "39746",
+    "address": "449-6990 Tellus. Rd"
+  },
+  {
+    "id": 1002,
+    "firstName": "C",
+    "lastName": "F",
+    "email": "mollis.lectus.pede@outlook.net",
+    "zipCode": "39746",
+    "address": "449-6990 Tellus. Rd"
+  },
+  {
+    "id": 1003,
+    "firstName": "C",
+    "lastName": "F",
+    "email": "mollis.lectus.pede@outlook.net",
+    "zipCode": "39746",
+    "address": "449-6990 Tellus. Rd"
+  }
+]
